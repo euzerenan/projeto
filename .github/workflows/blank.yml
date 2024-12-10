@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Página Inicial</h1>
+    <nav>
+        <ul>
+            <!-- Links para as outras páginas -->
+            <li><a href="html.html">Página Apenas com HTML</a></li>
+            <li><a href="html_css.html">Página com HTML e CSS</a></li>
+            <li><a href="html_css_js.html">Página com HTML, CSS e JavaScript</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Apenas com HTML</title>
+</head>
+<body>
+    <h1>Página Apenas com HTML</h1>
+    <p>Esta página contém apenas HTML.</p>
+    <!-- Link para voltar à página inicial -->
+    <a href="index.html">Voltar para a Página Inicial</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com HTML e CSS</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Página com HTML e CSS</h1>
+    <p>Esta página contém HTML e CSS para estilização.</p>
+    <!-- Link para voltar à página inicial -->
+    <a href="index.html">Voltar para a Página Inicial</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com HTML, CSS e JavaScript</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Página com HTML, CSS e JavaScript</h1>
+    <p>Esta página contém HTML, CSS e JavaScript para interatividade.</p>
+    <!-- Botão com ação JavaScript -->
+    <button onclick="showAlert()">Clique em mim</button>
+    <!-- Link para voltar à página inicial -->
+    <a href="index.html">Voltar para a Página Inicial</a>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+/* Estilo para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para os títulos */
+h1 {
+    color: #007bff;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilo para os links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+// Função que exibe um alerta ao clicar no botão
+function showAlert() {
+    alert('Você clicou no botão!');
+}
+
